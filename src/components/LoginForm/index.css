@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.LogINcON {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.LinerHome {
+  height: 100vh;
+  text-decoration: none;
+  width: 100%;
+}
+.con1Login {
+  width: 40%;
+}
+.con2Login {
+  width: 30%;
+  padding: 34px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginGurls {
+  width: 100%;
+}
+.LoginFromImgCon {
+  width: 40%;
+}
+.sdfbfsd {
+  width: 100%;
+}
+.formCon {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-family: 'Roboto';
+  justify-content: space-around;
+  height: 30vh;
+}

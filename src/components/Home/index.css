@@ -1,0 +1,63 @@
+/* Write your CSS code here */
+.LinerHome {
+  height: 100vh;
+  text-decoration: none;
+}
+.DivConHome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+.LowerHomeCon {
+  margin-top: 44px;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+  min-height: 70vh;
+  justify-content: center;
+}
+.con1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 13px;
+  width: 40%;
+}
+.con2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clotheHoldingCon {
+  width: 70%;
+}
+.paraa {
+  color: #475569;
+  width: 70%;
+  font-size: 34px;
+}
+.H1SizeClothe {
+  font-size: 54px;
+}
+.ClothesThat {
+  width: 100%;
+}
+.imgCnHOMEForMobule {
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-around;
+  padding: 13px;
+}
+@media (min-width: 769px) {
+  .imgCnHOMEForMobule {
+    display: none;
+    width: 100%;
+    background-color: black;
+  }
+}

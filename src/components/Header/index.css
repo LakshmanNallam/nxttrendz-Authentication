@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+.NavSty {
+  width: 100%;
+  font-family: 'Roboto';
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+}
+.leftCon {
+  width: 50%;
+  display: flex;
+}
+.rightConLarge {
+  width: 30%;
+  display: flex;
+  padding-right: 34px;
+  justify-content: space-around;
+  align-items: center;
+}
+.rightConSmall {
+  width: 30%;
+  display: flex;
+  padding-right: 14px;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  width: 100%;
+}
+.LOgoCon {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 769px) {
+  .rightConSmall {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .rightConLarge {
+    display: none;
+  }
+}
